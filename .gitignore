@@ -1,0 +1,6 @@
+artifacts/
+__pycache__/
+*.png
+*.pdf
+*.log
+.DS_Store
