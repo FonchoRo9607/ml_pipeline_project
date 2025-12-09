@@ -1,4 +1,4 @@
-### 📊 ML Pipeline con Streamlit
+# 📊 ML Pipeline con Streamlit
 
 Este proyecto implementa un pipeline de Machine Learning en Python que genera métricas, gráficos y un informe PDF. Además, incluye una interfaz web con Streamlit para que cualquier usuario pueda subir su propio archivo CSV y obtener resultados de manera interactiva.
 
@@ -33,7 +33,7 @@ Verás las métricas y gráficos directamente en la web, y se generará un PDF e
 
 # 📂 Estructura del Proyecto
 
-
+```
 ml_pipeline_project/
 │
 ├── app_pipeline_streamlit.py   # Interfaz web con Streamlit
@@ -48,6 +48,7 @@ ml_pipeline_project/
 │
 ├── data/raw/                   # Datasets de ejemplo
 └── artifacts/                  # PDFs y gráficos generados
+```
 
 # 📦 Dependencias
 
@@ -59,12 +60,12 @@ pip install -r requirements.txt
 ```
 Ejemplo de requirements.txt:
 
-pandas
-scikit-learn
-matplotlib
-seaborn
-reportlab
-streamlit
+- pandas
+- scikit-learn
+- matplotlib
+- seaborn
+- reportlab
+- streamlit
 
 # 🌍 Bilingual Instructions
 
